@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ShowAccount">
+   <children>
+      <Button layoutX="35.0" layoutY="25.0" mnemonicParsing="false" onAction="#backtomenu" text="&lt;-Menu">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="accname" layoutX="60.0" layoutY="102.0" text="I am happy here" />
+      <Label fx:id="accountno" layoutX="60.0" layoutY="173.0" text="I am happy here" />
+      <Label fx:id="acusername" layoutX="60.0" layoutY="243.0" text="I am happy here" />
+      <Label fx:id="mobileno" layoutX="60.0" layoutY="308.0" text="I am happy here" />
+      <Label fx:id="Address" layoutX="331.0" layoutY="173.0" text="I am happy here" />
+      <Label fx:id="panno" layoutX="331.0" layoutY="234.0" text="I am happy here" />
+      <Label fx:id="aadharno" layoutX="331.0" layoutY="308.0" text="I am happy here" />
+      <Separator layoutX="273.0" layoutY="71.0" orientation="VERTICAL" prefHeight="274.0" prefWidth="14.0" />
+      <Separator layoutX="4.0" layoutY="69.0" prefHeight="3.0" prefWidth="690.0" />
+      <Separator layoutX="4.0" layoutY="137.0" prefHeight="3.0" prefWidth="690.0" />
+      <Separator layoutX="4.0" layoutY="209.0" prefHeight="3.0" prefWidth="690.0" />
+      <Label layoutX="127.0" layoutY="358.0" prefHeight="27.0" prefWidth="401.0" text="For any query reach out to us at ritik123453@gmail.com">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="21.0" prefHeight="36.0" prefWidth="142.0" text="Profile Section">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutY="346.0" prefHeight="3.0" prefWidth="696.0" />
+      <Separator layoutX="3.0" layoutY="271.0" prefHeight="3.0" prefWidth="690.0" />
+      <Label fx:id="email" layoutX="335.0" layoutY="102.0" text="I am happy here" />
+   </children>
+</AnchorPane>
